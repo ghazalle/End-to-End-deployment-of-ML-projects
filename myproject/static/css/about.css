@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("/myproject/static/background_about.jpeg");
+
+  background-position: center; /* Center the image */
+
+  background-size: cover; /* Resize the background image to cover the entire container */
+
+  top: 0;
+  bottom: 0;
+}
+.menu {
+  float: right;
+}
+.menu ul {
+  list-style: none;
+  margin: 8px;
+  padding: 0;
+}
+.menu li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.menu a {
+  text-decoration: none;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Lato";
+}
+.menu a:hover {
+  text-decoration: underline;
+}
+
+h1 span {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Lato";
+}
+a:hover {
+  text-decoration: underline;
+}

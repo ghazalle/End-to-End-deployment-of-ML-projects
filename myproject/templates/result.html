@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    
+    <title>Result</title>
+    <link rel="stylesheet" href="static/css/home.css" />
+</head>
+
+<body style="background-image: url(static/header.jpeg);" >
+
+  
+    <center>
+    <h1><span>PREDICTION RESULT : </span></h1>
+
+    {% if data=='0' %}
+    <h3>The Resutlt is : "Iris-Setosa"</h3>
+    <img src="static/iris_setosa.jpg" alt="iris_setosa" style="opacity: 0.75" height="150px" width="250px">
+    
+  
+    
+    {% elif data=='1' %}
+    <h3>The Resutlt is : "Iris-Versicolor"</h3>
+    <img src="static/iris_versicolor.jpg" alt="iris_versicolor" style="opacity:0.75" height="150px" width="250px">
+    
+  {% elif data=='2' %}
+    <h3>The Resutlt is : "Iris-Verginica"</h3>
+    <img src="static/iris_verginica.jpg" alt="iris_versginica" style="opacity:0.75" height="150px" width="250px">
+    
+
+    {%endif%}
+    <br><br>
+    <a href="/">BACK TO HOME</a>
+    </center>
+    
+</body>
+</html>

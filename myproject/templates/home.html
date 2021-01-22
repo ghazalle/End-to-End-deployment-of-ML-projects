@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    
+    <head>
+        <title>home</title>
+    <link rel="stylesheet"  href="static/css/home.css" />
+    </head>
+    
+    <body style="background-image: url(static/header.jpeg);">
+    
+    
+        <header>
+            <div class="menu">
+                <ul>
+    
+                    <li><a target="_blank" href="http://127.0.0.1:5500/myproject/templates/about.html">About</a></li>
+                    <li><a target="_blank" href="http://127.0.0.1:5500/myproject/templates/service.html">Services</a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/ghazaleh-sulaiman-82b114143/">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+    
+    
+    
+    
+        <h1 style="margin-left: 300px;"><span>Iris Flower Classification</span></h1>
+        <br>
+    
+    
+    <form style="margin-top: 60px; margin-left: 530px
+     ; margin-right: 240px ; margin-bottom: 600px;" method="POST" , action="{{url_for('result')}}">
+    
+          <b>
+            Sepal Length :<input type="text" name="sl"><br><br>
+            Sepal Width : <input type="text" name="sw"><br><br>
+            Petal Length :<input type="text" name="pl"> <br><br>
+            Petal Width : <input type="text"  name="pw"><br><br></b> 
+           <input type="submit" value="Predict" style="color: chocolate; margin-left: 73px;">
+        </form>
+    
+    </body>
+    
+    </html>
